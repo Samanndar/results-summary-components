@@ -7,6 +7,22 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Hanken Grostesk";
+  src: url(../fonts/HankenGrotesk-Medium.woff) format("woff2"),
+       url(../fonts/HankenGrotesk-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hanken Grostesk";
+  src: url(../fonts/HankenGrotesk-Bold.woff) format("woff2"),
+       url(../fonts/HankenGrotesk-Bold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 /* GLOBAL */
 html {
   box-sizing: border-box;
