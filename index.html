@@ -4,14 +4,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Results summary component </title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="component-wrapper">
+    <!-- RESULT BOX -->
+    <div class="result-box">
+      <h2 class="result-box__heading">Your Result</h2>
+      <div class="result-box__circle">
+        <div class="result-circle__result">76</div>
+        <span class="result-circle__of">100</span>
+      </div>
+      <div class="result-box__message">
+        <div class="result-box__message-text">Great</div>
+        <p class="result-box__message-content">Your profile execedd 65% of the people conducting the test here!</p>
 
+      </div>
+    </div>
+    <!-- SUMMARY BOX -->
+    <div class="summary-box">
+      <h2 class="summary-box__heading">Summary</h2>
+      <ul class="summary-box__stats stats-list">
+        <li class="stats-list__item stats-list__item--reaction">
+          <img src="img/icon-reaction.svg" alt="reation" class="stats-list__item-icon" width="20" height="20" aria-hidden="true">
+          <span class="stats-list__item-title">Reaction</span>
+          <span class="stats-list__item-result">80</span>
+          <span class="stats-list__item-max">/ 100</span>
+        </li>
+        <li class="stats-list__item stats-list__item--memory">
+          <img src="img/icon-memory.svg" alt="memory" class="stats-list__item-icon" width="20" height="20"
+            aria-hidden="true">
+          <span class="stats-list__item-title">Memory</span>
+          <span class="stats-list__item-result">92</span>
+          <span class="stats-list__item-max">/ 100</span>
+        </li>
+        <li class="stats-list__item stats-list__item--verbal">
+          <img src="img/icon-verbal.svg" alt="verbal" class="stats-list__item-icon" width="20" height="20"
+            aria-hidden="true">
+          <span class="stats-list__item-title">Verbal</span>
+          <span class="stats-list__item-result">61</span>
+          <span class="stats-list__item-max">/ 100</span>
+        </li>
+        <li class="stats-list__item stats-list__item--visual">
+          <img src="img/icon-visual.svg" alt="visual" class="stats-list__item-icon" width="20" height="20" aria-hidden="true">
+          <span class="stats-list__item-title">Visual</span>
+          <span class="stats-list__item-result">73</span>
+          <span class="stats-list__item-max">/ 100</span>
+        </li>
+      </ul>
+      <a href="#" class="button">continue</a>
+      <button class="button" type="button">continue</button>
+    </div>
+  </div>
 
 
   <script src="js/main.js"></script>
