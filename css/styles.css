@@ -251,8 +251,7 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 28px;
 }
-.summary-box__stats {
-}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
