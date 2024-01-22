@@ -301,11 +301,11 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 24px;
     font-size: 18px;
   }
-.summary-box {
-  padding: 24px 32px 32px;
-}
-.summary-box__heading {
-  font-size: 18px;
-  margin-bottom: 28px;
-}
+  .summary-box {
+    padding: 24px 32px 32px;
+  }
+  .summary-box__heading {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
 }
