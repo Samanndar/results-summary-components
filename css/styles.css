@@ -114,6 +114,7 @@ select:-webkit-autofill:focus {
   font-weight: 700;
   border-radius: 128px;
   line-height: normal;
+  margin-top: 35px;
   display: inline-block;
   padding: 16px 32px;
   text-decoration: none;
@@ -122,6 +123,7 @@ select:-webkit-autofill:focus {
   background: #303b59;
   cursor: pointer;
   transition: all 0.5s ease 0s;
+  cursor: pointer;
 }
 .button:hover {
   background: #2f2ce9;
@@ -260,4 +262,50 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
+}
+
+@media only screen and (max-width: 740px) {
+  .component-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  .result-box {
+    max-width: 100%;
+  }
+  .summary-box {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .component-wrapper {
+    margin: 0;
+  }
+  .result-box {
+    border-radius: 0px 0px 32px 32px;
+  }
+  .result-circle {
+    width: 140px;
+    height: 140px;
+  }
+  .result-circle__result {
+    margin-bottom: 0;
+    font-size: 56px;
+    line-height: 72px;
+  }
+  .result-circle__of {
+    font-size: 16px;
+  }
+  .result-box__heading {
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+.summary-box {
+  padding: 24px 32px 32px;
+}
+.summary-box__heading {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
 }
