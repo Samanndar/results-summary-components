@@ -167,6 +167,7 @@ select:-webkit-autofill:focus {
 
 .result-box {
   max-width: 368px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
