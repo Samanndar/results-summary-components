@@ -1,17 +1,19 @@
-[ 
-  {
-    "category": "Reaction",
-    "score": "80",
-    "icon": "img/icon-reaction.svg"
-  },
-  {
-    "category": "Memory",
-    "score": "80",
-    "icon": "img/icon-memory.svg"
-  },
-  {
-    "category": "Verbal",
-    "score": "80",
-    "icon": "img/icon-verbal.svg"
-  }
-]
+{
+  "data": [ 
+    {
+      "category": "Reaction",
+      "score": "80",
+      "icon": "img/icon-reaction.svg"
+    },
+    {
+      "category": "Memory",
+      "score": "80",
+      "icon": "img/icon-memory.svg"
+    },
+    {
+      "category": "Verbal",
+      "score": "80",
+      "icon": "img/icon-verbal.svg"
+    }
+  ]
+}
